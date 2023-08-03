@@ -1256,7 +1256,7 @@ export class LaTeX
                 Package.symbols?.forEach (value, key) -> symbols.set key, value
             catch e
                 # log error but continue anyway
-                console.error "error loading package \"#{pkg}\": #{e}"
+                console.error "error loading package \"#{pkg}\""
 
 
     args.\includeonly   = <[ P csv ]>
